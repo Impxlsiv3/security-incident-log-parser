@@ -1,6 +1,6 @@
 # Security Incident Log Parser
 
-A Python-based log parser for detecting suspicious activity in log files using configurable pattern matching. Outputs suspicious entries and generates a summary report.
+A CLI-based log analysis tool that parses Squid, Snort, and general log files to flag suspicious activity (SQL injection, XSS, scanning). Outputs a detailed incident report using JSON-driven pattern matching.
 
 ## Features
 - Detects suspicious activity like SQL injection, XSS, and reconnaissance tools
