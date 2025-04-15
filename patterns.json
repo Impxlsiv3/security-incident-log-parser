@@ -1,0 +1,6 @@
+{
+  "SQL Injection": ["SELECT", "UNION", "DROP", "--"],
+  "XSS": ["<script>", "alert(", "onerror="],
+  "Recon": ["nmap", "masscan", "nikto", "dirb"],
+  "Repeated IP": []
+}
